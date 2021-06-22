@@ -1,0 +1,57 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos,go
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,go
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+### Go Patch ###
+/vendor/
+/Godeps/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,go
+# https://www.toptal.com/developers/gitignore/api/macos tarafından düzenlendi, git # https://www.toptal.com/developers/gitignore?templates=macos adresinde düzenleyin, gidin ### Git ### # Programlar ve eklentiler için ikili dosyalar *.exe *.exe~ *.dll *.yani *.dylib # `go test -c` ile oluşturulmuş ikili test *.Ölçek # Go kapsama aracının çıktısı, özellikle LiteIDE ile kullanıldığında *.dışarı # Bağımlılık dizinleri (eklemek için aşağıdaki yorumu kaldırın) # SATICI/ ### Yamaya Git ### /SATICI/ /Godeps/ ### Mac os işletim sistemi ### # Genel .DS_Store .AppleÇift .LSOverride # Simge iki \r ile bitmelidir Simge # Küçük resimler ._* # Bir birimin kökünde görünebilecek dosyalar .BelgeRevizyonları-V100 .fseventsd .Spotlight-V100 .Geçici Öğeler .Çöpler .VolumeIcon.icns .com.apple.timemachine.donot mevcut # Uzak AFP paylaşımında potansiyel olarak oluşturulmuş dizinler .AppleDB .AppleMasaüstü Ağ Çöp Klasörü Geçici Öğeler .apdisk # https://www.toptal.com/developers/gitignore/api/macos'un sonu,go
+translated from: English
