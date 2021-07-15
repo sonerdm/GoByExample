@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GitHub/GoByExample/An_Introduction_to_Programming_in_Go/chapter11/math"
+	"chapter11-12/src/math"
 	"fmt"
 )
 
